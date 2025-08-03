@@ -29,7 +29,8 @@ Your response should follow this format:
 """)
 
 
-PROMPT_REGISTRY={"document_analysis":document_analysis_prompt,"document_comparison":document_comparison_prompt}from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+PROMPT_REGISTRY={"document_analysis":document_analysis_prompt,"document_comparison":document_comparison_prompt}
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 # Prompt for document analysis
 document_analysis_prompt = ChatPromptTemplate.from_template("""
