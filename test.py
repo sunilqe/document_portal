@@ -186,7 +186,7 @@ def test_document_ingestion_and_rag():
         session_id = "test_multi_doc_chat"
         
         rag = ConversationalRAG(session_id=session_id, retriever=retriever)
-        question = "what is attention is all you need paper about?"
+        question = "Who is Zelenskyy?"
         answer=rag.invoke(question)
         print("\n Question:", question)
         print("Answer:", answer)
