@@ -160,7 +160,7 @@ def test_document_ingestion_and_rag():
         test_files = [
             "C:\\Users\\sunil\\Documents\\document_portal\\data\\multi_doc_chat\\market_analysis_report.docx",
             "C:\\Users\\sunil\\Documents\\document_portal\\data\\multi_doc_chat\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
-            "C:\\Users\\sunil\\Documents\\document_portal\\data\\multi_doc_chat\sample.pdf"
+            "C:\\Users\\sunil\\Documents\\document_portal\\data\\multi_doc_chat\sample.pdf",
             "C:\\Users\\sunil\Documents\\document_portal\\data\\multi_doc_chat\\state_of_the_union.txt"
         ]
     
@@ -196,3 +196,6 @@ def test_document_ingestion_and_rag():
     except Exception as e:
         print(f"Test failed: {str(e)}")
         sys.exit(1)
+
+if __name__ == "__main__":
+    test_document_ingestion_and_rag()

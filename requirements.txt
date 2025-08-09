@@ -11,4 +11,5 @@ PyMuPDF
 pandas
 streamlit
 langchain-core[tracing]
+docx2txt
 -e .
