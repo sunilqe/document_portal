@@ -8,3 +8,4 @@ logs/
 sample.py
 .vscode
 faiss_index
+custom_exception_archive.py
