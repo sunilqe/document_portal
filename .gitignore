@@ -10,3 +10,4 @@ sample.py
 faiss_index
 custom_exception_archive.py
 archive
+data/
